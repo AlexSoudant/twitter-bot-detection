@@ -41,6 +41,7 @@ class TweetImporter(object):
                     user = user,
                     text = text_string,
                     date = date_string,
+                    source = status.source,
                     mentions = name_mentions_string
             )
 
